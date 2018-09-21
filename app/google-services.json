@@ -1,0 +1,386 @@
+{
+  "project_info": {
+    "project_number": "87117019170",
+    "firebase_url": "https://agro-market-f0401.firebaseio.com",
+    "project_id": "agro-market-f0401",
+    "storage_bucket": "agro-market-f0401.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87117019170:android:4708aae8162886e1",
+        "android_client_info": {
+          "package_name": "com.automata.betgenius"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "87117019170-ht7fh8m3ujn7souohjjra0a8jmg2vf44.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_Mf4txEeiGBRLHJZBGUyvHQyjGmygAQI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87117019170:android:4d5bfbb14ecbd5be",
+        "android_client_info": {
+          "package_name": "com.automata.betsure"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "87117019170-ht7fh8m3ujn7souohjjra0a8jmg2vf44.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_Mf4txEeiGBRLHJZBGUyvHQyjGmygAQI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87117019170:android:f3119d9a1cbe06d9",
+        "android_client_info": {
+          "package_name": "com.automata.eazybitcoin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "87117019170-n1tqvbn1r207mgqkcsnlrom91h5rh3ef.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.automata.eazybitcoin",
+            "certificate_hash": "18cf15e04d250ab502953ae4042b89da38f1b5e7"
+          }
+        },
+        {
+          "client_id": "87117019170-gkr2ks6b035bitfclco30bip7fv4d54d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.automata.eazybitcoin",
+            "certificate_hash": "95285a73f3954acee3995f1b768aa7d6a54a0142"
+          }
+        },
+        {
+          "client_id": "87117019170-ht7fh8m3ujn7souohjjra0a8jmg2vf44.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_Mf4txEeiGBRLHJZBGUyvHQyjGmygAQI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "87117019170-ht7fh8m3ujn7souohjjra0a8jmg2vf44.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87117019170:android:7abc26bd40785722",
+        "android_client_info": {
+          "package_name": "com.automata.winbet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "87117019170-ht7fh8m3ujn7souohjjra0a8jmg2vf44.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_Mf4txEeiGBRLHJZBGUyvHQyjGmygAQI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87117019170:android:fa3c09343d0f8ea2",
+        "android_client_info": {
+          "package_name": "com.automata.winbetadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "87117019170-ht7fh8m3ujn7souohjjra0a8jmg2vf44.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_Mf4txEeiGBRLHJZBGUyvHQyjGmygAQI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87117019170:android:562867de15822adb",
+        "android_client_info": {
+          "package_name": "com.hansen.agromarket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "87117019170-kgqp7vq7t683vp6vd1k36v2b5kauc4aa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hansen.agromarket",
+            "certificate_hash": "532a57a4ce788017e9805e72befa7493f96b2471"
+          }
+        },
+        {
+          "client_id": "87117019170-ht7fh8m3ujn7souohjjra0a8jmg2vf44.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_Mf4txEeiGBRLHJZBGUyvHQyjGmygAQI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "87117019170-ht7fh8m3ujn7souohjjra0a8jmg2vf44.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87117019170:android:b954a0b52234767d",
+        "android_client_info": {
+          "package_name": "com.hansen.jp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "87117019170-ht7fh8m3ujn7souohjjra0a8jmg2vf44.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_Mf4txEeiGBRLHJZBGUyvHQyjGmygAQI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87117019170:android:be7e07d5ada9ae7d",
+        "android_client_info": {
+          "package_name": "com.hansen.jpadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "87117019170-ht7fh8m3ujn7souohjjra0a8jmg2vf44.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_Mf4txEeiGBRLHJZBGUyvHQyjGmygAQI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87117019170:android:bb255e9327434408",
+        "android_client_info": {
+          "package_name": "com.hansen.learnluo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "87117019170-ht7fh8m3ujn7souohjjra0a8jmg2vf44.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_Mf4txEeiGBRLHJZBGUyvHQyjGmygAQI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87117019170:android:d6430bd8251a9462",
+        "android_client_info": {
+          "package_name": "com.hansen.winbet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "87117019170-ht7fh8m3ujn7souohjjra0a8jmg2vf44.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_Mf4txEeiGBRLHJZBGUyvHQyjGmygAQI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87117019170:android:f67e2cfa5109892f",
+        "android_client_info": {
+          "package_name": "com.kodeguru.betinadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "87117019170-ht7fh8m3ujn7souohjjra0a8jmg2vf44.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_Mf4txEeiGBRLHJZBGUyvHQyjGmygAQI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
