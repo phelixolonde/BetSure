@@ -40,8 +40,10 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.Date;
@@ -180,16 +182,23 @@ public class YesterdayFragment extends Fragment implements SearchView.OnQueryTex
         super.onStart();
         getData();
     }
+    private Date yesterday() {
+        final Calendar cal = Calendar.getInstance();
+        cal.add(Calendar.DATE, -1);
+        return cal.getTime();
+    }
+    private String getYesterdayDateString() {
+        DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
+        return dateFormat.format(yesterday());
+    }
 
     private void getData() {
         avi.show();
+        data.clear();
 
         mSwipeRefreshLayout.setRefreshing(true);
 
-        final String yester_date = new SimpleDateFormat("yyyyMMdd", Locale.getDefault()).format(new Date());
-        String today = String.valueOf(Integer.parseInt(yester_date )-1);
-        final String today_date = today.substring(0, 4) + "-" + today.substring(4, 6) + "-" + today.substring(6,8);
-        String urlJsonObj = "https://football-prediction-api.p.mashape.com/api/v1/predictions?iso_date="+today_date;
+        String urlJsonObj = "https://football-prediction-api.p.mashape.com/api/v1/predictions?iso_date="+getYesterdayDateString();
 
         JsonObjectRequest jsonObjReq = new JsonObjectRequest(Request.Method.GET,
                 urlJsonObj, null, new Response.Listener<JSONObject>() {
@@ -257,7 +266,9 @@ public class YesterdayFragment extends Fragment implements SearchView.OnQueryTex
 
 
                     }
+
                     mAdapter = new AdapterNews(getContext(), data);
+                    mAdapter.notifyDataSetChanged();
                     recyclerView.setAdapter(mAdapter);
 
                 } catch (JSONException e) {
@@ -272,7 +283,7 @@ public class YesterdayFragment extends Fragment implements SearchView.OnQueryTex
             public void onErrorResponse(VolleyError error) {
                 avi.hide();
                 mSwipeRefreshLayout.setRefreshing(false);
-                Toast.makeText(getContext(), "We are unable to load tips.Please check your internet connection", Toast.LENGTH_LONG).show();
+                Toast.makeText(getContext(), "We are unable to yesterday load tips.Please try again later or email admin", Toast.LENGTH_LONG).show();
 
 
             }
